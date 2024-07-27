@@ -27,3 +27,16 @@ for animal in animals:
 # يطبع:
 # Buddy says Woof!
 # Whiskers says Meow!
+
+
+class Person :
+    def __init__(self , name , age ):
+        self._name = name 
+        self._age = age 
+    def get_info(self):
+        return f"Name : {self._name} , Age :{self._age}"
+
+person = Person("MaHmoud shaker " , 24 )
+
+print(person.get_info())
+
